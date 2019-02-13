@@ -22,7 +22,7 @@ public class Chrome_Local_Test {
 		
 		caps.setCapability("browserName", "chrome"); // PROVIDE BROWSER NAME
 		
-		WebDriver driver = new RemoteWebDriver(URLObj, caps); // CREATE WEN DRIVER INSTANCE
+		WebDriver driver = new RemoteWebDriver(URLObj, caps); // CREATE WEB DRIVER INSTANCE
 		
 //		driver.manage().window().maximize(); // MAXIMIZE WINDOW
 		
